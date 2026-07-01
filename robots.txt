@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benevolent-cannoli-dcb9f3.netlify.app/sitemap.xml
