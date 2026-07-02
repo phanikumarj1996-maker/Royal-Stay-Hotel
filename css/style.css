@@ -41,7 +41,9 @@ nav ul li a{
     background-position: center;
     color: white;
 }
-
+.hero-content{
+    padding-top: 80px;
+}
 .hero h2{
     font-size:20px;
     margin-bottom:20px;
