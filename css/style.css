@@ -32,15 +32,18 @@ nav ul li a{
     text-decoration:none;
     font-weight:bold;
 }
-
 .hero{
-    text-align: center;
-    padding: 150px 20px;
-    background: url("../images/hotel1.jpg");
     background-size: cover;
     background-position: center;
-    color: white;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
 }
+
 .hero-content{
     padding-top: 80px;
 }
