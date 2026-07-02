@@ -20,8 +20,10 @@
 </nav>
 
 <section class="hero">
+    <div class=""hero-content">
     <h2>Contact Us</h2>
     <p>We are happy to assist you 24/7.</p>
+    </div>
 </section>
 
 
@@ -32,15 +34,26 @@
     <p><strong>Phone:</strong> +91 98765 43210</p>
     <p><strong>Email:</strong> info@royalstayhotel.com</p>
 
-    <form onsubmit="return validateForm()">
-        <input type="text" id="name" placeholder="Your Name" required><br><br>
+    <h2>Book Your Stay</h2>
 
-        <input type="email" id="email" placeholder="Your Email" required><br><br>
+    <form onsubmit="alert('Booking submitted successfully!'); return false;">
+        <input type="text" placeholder="Full Name" required>
 
-        <textarea id="message" placeholder="Your Message" rows="5" required></textarea><br><br>
+        <input type="email" placeholder="Email Address" required>
 
-        <button type="submit">Send Message</button>
-</form>
+        <input type="tel" placeholder="Phone Number" required>
+
+
+        <label>Check-in Date</label>
+        <input type="date" required>
+
+        <label>Check-out Date</label>
+        <input type="date" required>
+
+        <textarea placeholder="Special Requests (Optional)" rows="5"></textarea>
+
+        <button type="submit">Book Now</button>
+    </form>
 </section>
 <script src="js/script.js"></script>
 <!--Start of Tawk.to Script-->
@@ -61,6 +74,7 @@ s0.parentNode.insertBefore(s1,s0);
     <p>Hyderabad, Telangana, India</p>
     <p>Phone: +91 98765 43210</p>
     <p>Email: info@royalstayhotel.com</p>
+    <p>&copy; 2026 Royal Stay Hotel. All Rights Reserved.</p>
 </footer>
 </body>
 </html>

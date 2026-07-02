@@ -39,6 +39,7 @@ nav ul li a{
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -47,15 +48,19 @@ nav ul li a{
 
 .hero-content{
     padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .hero h2{
-    font-size:20px;
-    margin-bottom:20px;
+    font-size:48px;
+    margin-bottom:15px;
 }
 
 .hero p{
-    font-size:20px;
-    margin-top:30px;
+    font-size:22px;
+    margin-top:0px;
     margin-bottom:20px;
 }
 
@@ -120,13 +125,17 @@ button:hover{
 
 .contact input,
 .contact textarea{
-    width:60%;
+    width:100%;
     padding:12px;
     margin:10px 0;
     border:1px solid #ccc;
     border-radius:5px;
+    box-sizing: border-box;
 }
-
+.contact form{
+    max-width: 600px;
+    margin: auto;
+}
 .contact button{
     padding:12px 25px;
     background:#1e3a8a;
