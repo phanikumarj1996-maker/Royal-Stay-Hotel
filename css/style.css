@@ -33,7 +33,7 @@ nav ul li a{
     font-weight:bold;
 }
 .hero{
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../images/hotel1.jpg")
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../images/hotel1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .hero-content{
